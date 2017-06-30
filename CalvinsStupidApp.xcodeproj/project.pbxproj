@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36EE24E61F068A04008274E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EE24E51F068A04008274E8 /* AppDelegate.swift */; };
+		36EE24E81F068A04008274E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EE24E71F068A04008274E8 /* ViewController.swift */; };
+		36EE24EB1F068A04008274E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EE24E91F068A04008274E8 /* Main.storyboard */; };
+		36EE24ED1F068A04008274E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36EE24EC1F068A04008274E8 /* Assets.xcassets */; };
+		36EE24F01F068A04008274E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EE24EE1F068A04008274E8 /* LaunchScreen.storyboard */; };
+		36EE24FB1F068A04008274E8 /* CalvinsStupidAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EE24FA1F068A04008274E8 /* CalvinsStupidAppTests.swift */; };
+		36EE25061F068A04008274E8 /* CalvinsStupidAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EE25051F068A04008274E8 /* CalvinsStupidAppUITests.swift */; };
+		36EE25191F0692BC008274E8 /* donteatme.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 36EE25141F0692BC008274E8 /* donteatme.mp4 */; };
+		36EE251A1F0692BC008274E8 /* imalady.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 36EE25151F0692BC008274E8 /* imalady.mp4 */; };
+		36EE251B1F0692BC008274E8 /* peeingmyself.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 36EE25161F0692BC008274E8 /* peeingmyself.mp4 */; };
+		36EE251C1F0692BC008274E8 /* scream.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 36EE25171F0692BC008274E8 /* scream.mp4 */; };
+		36EE251D1F0692BC008274E8 /* silentnight.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 36EE25181F0692BC008274E8 /* silentnight.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36EE24F71F068A04008274E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36EE24DA1F068A04008274E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36EE24E11F068A04008274E8;
+			remoteInfo = CalvinsStupidApp;
+		};
+		36EE25021F068A04008274E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36EE24DA1F068A04008274E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36EE24E11F068A04008274E8;
+			remoteInfo = CalvinsStupidApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36EE24E21F068A04008274E8 /* CalvinsStupidApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalvinsStupidApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EE24E51F068A04008274E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36EE24E71F068A04008274E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36EE24EA1F068A04008274E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36EE24EC1F068A04008274E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36EE24EF1F068A04008274E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36EE24F11F068A04008274E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EE24F61F068A04008274E8 /* CalvinsStupidAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalvinsStupidAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EE24FA1F068A04008274E8 /* CalvinsStupidAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalvinsStupidAppTests.swift; sourceTree = "<group>"; };
+		36EE24FC1F068A04008274E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EE25011F068A04008274E8 /* CalvinsStupidAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalvinsStupidAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EE25051F068A04008274E8 /* CalvinsStupidAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalvinsStupidAppUITests.swift; sourceTree = "<group>"; };
+		36EE25071F068A04008274E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EE25141F0692BC008274E8 /* donteatme.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = donteatme.mp4; sourceTree = "<group>"; };
+		36EE25151F0692BC008274E8 /* imalady.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = imalady.mp4; sourceTree = "<group>"; };
+		36EE25161F0692BC008274E8 /* peeingmyself.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = peeingmyself.mp4; sourceTree = "<group>"; };
+		36EE25171F0692BC008274E8 /* scream.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = scream.mp4; sourceTree = "<group>"; };
+		36EE25181F0692BC008274E8 /* silentnight.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = silentnight.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36EE24DF1F068A04008274E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EE24F31F068A04008274E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EE24FE1F068A04008274E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36EE24D91F068A03008274E8 = {
+			isa = PBXGroup;
+			children = (
+				36EE24E41F068A04008274E8 /* CalvinsStupidApp */,
+				36EE24F91F068A04008274E8 /* CalvinsStupidAppTests */,
+				36EE25041F068A04008274E8 /* CalvinsStupidAppUITests */,
+				36EE24E31F068A04008274E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36EE24E31F068A04008274E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36EE24E21F068A04008274E8 /* CalvinsStupidApp.app */,
+				36EE24F61F068A04008274E8 /* CalvinsStupidAppTests.xctest */,
+				36EE25011F068A04008274E8 /* CalvinsStupidAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36EE24E41F068A04008274E8 /* CalvinsStupidApp */ = {
+			isa = PBXGroup;
+			children = (
+				36EE25131F0692A2008274E8 /* resources */,
+				36EE24E51F068A04008274E8 /* AppDelegate.swift */,
+				36EE24E71F068A04008274E8 /* ViewController.swift */,
+				36EE24E91F068A04008274E8 /* Main.storyboard */,
+				36EE24EC1F068A04008274E8 /* Assets.xcassets */,
+				36EE24EE1F068A04008274E8 /* LaunchScreen.storyboard */,
+				36EE24F11F068A04008274E8 /* Info.plist */,
+			);
+			path = CalvinsStupidApp;
+			sourceTree = "<group>";
+		};
+		36EE24F91F068A04008274E8 /* CalvinsStupidAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				36EE24FA1F068A04008274E8 /* CalvinsStupidAppTests.swift */,
+				36EE24FC1F068A04008274E8 /* Info.plist */,
+			);
+			path = CalvinsStupidAppTests;
+			sourceTree = "<group>";
+		};
+		36EE25041F068A04008274E8 /* CalvinsStupidAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36EE25051F068A04008274E8 /* CalvinsStupidAppUITests.swift */,
+				36EE25071F068A04008274E8 /* Info.plist */,
+			);
+			path = CalvinsStupidAppUITests;
+			sourceTree = "<group>";
+		};
+		36EE25131F0692A2008274E8 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				36EE25141F0692BC008274E8 /* donteatme.mp4 */,
+				36EE25151F0692BC008274E8 /* imalady.mp4 */,
+				36EE25161F0692BC008274E8 /* peeingmyself.mp4 */,
+				36EE25171F0692BC008274E8 /* scream.mp4 */,
+				36EE25181F0692BC008274E8 /* silentnight.mp4 */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36EE24E11F068A04008274E8 /* CalvinsStupidApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36EE250A1F068A04008274E8 /* Build configuration list for PBXNativeTarget "CalvinsStupidApp" */;
+			buildPhases = (
+				36EE24DE1F068A04008274E8 /* Sources */,
+				36EE24DF1F068A04008274E8 /* Frameworks */,
+				36EE24E01F068A04008274E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalvinsStupidApp;
+			productName = CalvinsStupidApp;
+			productReference = 36EE24E21F068A04008274E8 /* CalvinsStupidApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36EE24F51F068A04008274E8 /* CalvinsStupidAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36EE250D1F068A04008274E8 /* Build configuration list for PBXNativeTarget "CalvinsStupidAppTests" */;
+			buildPhases = (
+				36EE24F21F068A04008274E8 /* Sources */,
+				36EE24F31F068A04008274E8 /* Frameworks */,
+				36EE24F41F068A04008274E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36EE24F81F068A04008274E8 /* PBXTargetDependency */,
+			);
+			name = CalvinsStupidAppTests;
+			productName = CalvinsStupidAppTests;
+			productReference = 36EE24F61F068A04008274E8 /* CalvinsStupidAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36EE25001F068A04008274E8 /* CalvinsStupidAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36EE25101F068A04008274E8 /* Build configuration list for PBXNativeTarget "CalvinsStupidAppUITests" */;
+			buildPhases = (
+				36EE24FD1F068A04008274E8 /* Sources */,
+				36EE24FE1F068A04008274E8 /* Frameworks */,
+				36EE24FF1F068A04008274E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36EE25031F068A04008274E8 /* PBXTargetDependency */,
+			);
+			name = CalvinsStupidAppUITests;
+			productName = CalvinsStupidAppUITests;
+			productReference = 36EE25011F068A04008274E8 /* CalvinsStupidAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36EE24DA1F068A04008274E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ETC;
+				TargetAttributes = {
+					36EE24E11F068A04008274E8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CKT72NR3AB;
+						ProvisioningStyle = Automatic;
+					};
+					36EE24F51F068A04008274E8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36EE24E11F068A04008274E8;
+					};
+					36EE25001F068A04008274E8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36EE24E11F068A04008274E8;
+					};
+				};
+			};
+			buildConfigurationList = 36EE24DD1F068A04008274E8 /* Build configuration list for PBXProject "CalvinsStupidApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36EE24D91F068A03008274E8;
+			productRefGroup = 36EE24E31F068A04008274E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36EE24E11F068A04008274E8 /* CalvinsStupidApp */,
+				36EE24F51F068A04008274E8 /* CalvinsStupidAppTests */,
+				36EE25001F068A04008274E8 /* CalvinsStupidAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36EE24E01F068A04008274E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EE24F01F068A04008274E8 /* LaunchScreen.storyboard in Resources */,
+				36EE25191F0692BC008274E8 /* donteatme.mp4 in Resources */,
+				36EE251A1F0692BC008274E8 /* imalady.mp4 in Resources */,
+				36EE24ED1F068A04008274E8 /* Assets.xcassets in Resources */,
+				36EE24EB1F068A04008274E8 /* Main.storyboard in Resources */,
+				36EE251B1F0692BC008274E8 /* peeingmyself.mp4 in Resources */,
+				36EE251C1F0692BC008274E8 /* scream.mp4 in Resources */,
+				36EE251D1F0692BC008274E8 /* silentnight.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EE24F41F068A04008274E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EE24FF1F068A04008274E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36EE24DE1F068A04008274E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EE24E81F068A04008274E8 /* ViewController.swift in Sources */,
+				36EE24E61F068A04008274E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EE24F21F068A04008274E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EE24FB1F068A04008274E8 /* CalvinsStupidAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EE24FD1F068A04008274E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EE25061F068A04008274E8 /* CalvinsStupidAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36EE24F81F068A04008274E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36EE24E11F068A04008274E8 /* CalvinsStupidApp */;
+			targetProxy = 36EE24F71F068A04008274E8 /* PBXContainerItemProxy */;
+		};
+		36EE25031F068A04008274E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36EE24E11F068A04008274E8 /* CalvinsStupidApp */;
+			targetProxy = 36EE25021F068A04008274E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36EE24E91F068A04008274E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36EE24EA1F068A04008274E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36EE24EE1F068A04008274E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36EE24EF1F068A04008274E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36EE25081F068A04008274E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36EE25091F068A04008274E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36EE250B1F068A04008274E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CKT72NR3AB;
+				INFOPLIST_FILE = CalvinsStupidApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.cagocapps.CalvinsStupidApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		36EE250C1F068A04008274E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CKT72NR3AB;
+				INFOPLIST_FILE = CalvinsStupidApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.cagocapps.CalvinsStupidApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		36EE250E1F068A04008274E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CalvinsStupidAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cagocapps.online.CalvinsStupidAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalvinsStupidApp.app/CalvinsStupidApp";
+			};
+			name = Debug;
+		};
+		36EE250F1F068A04008274E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CalvinsStupidAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cagocapps.online.CalvinsStupidAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalvinsStupidApp.app/CalvinsStupidApp";
+			};
+			name = Release;
+		};
+		36EE25111F068A04008274E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CalvinsStupidAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cagocapps.online.CalvinsStupidAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CalvinsStupidApp;
+			};
+			name = Debug;
+		};
+		36EE25121F068A04008274E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CalvinsStupidAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cagocapps.online.CalvinsStupidAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CalvinsStupidApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36EE24DD1F068A04008274E8 /* Build configuration list for PBXProject "CalvinsStupidApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EE25081F068A04008274E8 /* Debug */,
+				36EE25091F068A04008274E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36EE250A1F068A04008274E8 /* Build configuration list for PBXNativeTarget "CalvinsStupidApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EE250B1F068A04008274E8 /* Debug */,
+				36EE250C1F068A04008274E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36EE250D1F068A04008274E8 /* Build configuration list for PBXNativeTarget "CalvinsStupidAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EE250E1F068A04008274E8 /* Debug */,
+				36EE250F1F068A04008274E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36EE25101F068A04008274E8 /* Build configuration list for PBXNativeTarget "CalvinsStupidAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EE25111F068A04008274E8 /* Debug */,
+				36EE25121F068A04008274E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36EE24DA1F068A04008274E8 /* Project object */;
+}
